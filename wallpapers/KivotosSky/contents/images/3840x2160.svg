@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F9FF2"/>
+      <stop offset="0.35" stop-color="#6EC4F9"/>
+      <stop offset="0.7" stop-color="#C2E8FF"/>
+      <stop offset="1" stop-color="#F3FAFF"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="0.22" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="puff" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E9FBFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#E9FBFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9EBFF"/>
+      <stop offset="1" stop-color="#A6D8F8"/>
+    </linearGradient>
+    <linearGradient id="cityFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9DBFA"/>
+      <stop offset="1" stop-color="#D6EFFF"/>
+    </linearGradient>
+    <linearGradient id="cityNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8CCBF3"/>
+      <stop offset="1" stop-color="#C4E6FB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky and sun -->
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <ellipse cx="1560" cy="150" rx="520" ry="520" fill="url(#sun)"/>
+
+  <!-- Light beams -->
+  <polygon points="1480,0 1600,0 980,1080 760,1080" fill="url(#beam)" opacity="0.55"/>
+  <polygon points="1660,0 1710,0 1300,1080 1200,1080" fill="url(#beam)" opacity="0.45"/>
+  <polygon points="1760,0 1900,0 1660,1080 1440,1080" fill="url(#beam)" opacity="0.35"/>
+
+  <!-- UI-style triangle mosaic in the corner -->
+  <polygon points="0,0 260,0 0,190" fill="#FFFFFF" fill-opacity="0.10"/>
+  <polygon points="0,0 140,0 0,330" fill="#FFFFFF" fill-opacity="0.08"/>
+  <polygon points="90,0 300,0 180,110" fill="#BFF0FF" fill-opacity="0.18"/>
+  <polygon points="0,120 70,260 0,300" fill="#FFFFFF" fill-opacity="0.14"/>
+  <polygon points="1920,1080 1700,1080 1920,900" fill="#FFFFFF" fill-opacity="0.12"/>
+
+  <!-- Floating halo -->
+  <g transform="rotate(-10 600 300)">
+    <ellipse cx="600" cy="300" rx="380" ry="150" fill="url(#haloGlow)"/>
+    <ellipse cx="600" cy="300" rx="300" ry="70" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-opacity="0.75"/>
+    <ellipse cx="600" cy="300" rx="268" ry="56" fill="none" stroke="#C8F3FF" stroke-width="3" stroke-opacity="0.9"/>
+    <g fill="#FFFFFF" fill-opacity="0.9">
+      <polygon points="900,287 906,300 900,313 894,300"/>
+      <polygon points="860,322 866,335 860,348 854,335"/>
+      <polygon points="750,348 756,361 750,374 744,361"/>
+      <polygon points="600,357 606,370 600,383 594,370"/>
+      <polygon points="450,348 456,361 450,374 444,361"/>
+      <polygon points="340,322 346,335 340,348 334,335"/>
+      <polygon points="300,287 306,300 300,313 294,300"/>
+      <polygon points="340,252 346,265 340,278 334,265"/>
+      <polygon points="450,226 456,239 450,252 444,239"/>
+      <polygon points="600,217 606,230 600,243 594,230"/>
+      <polygon points="750,226 756,239 750,252 744,239"/>
+      <polygon points="860,252 866,265 860,278 854,265"/>
+    </g>
+  </g>
+
+  <!-- High clouds -->
+  <g opacity="0.8">
+    <ellipse cx="260" cy="560" rx="180" ry="40" fill="url(#puff)"/>
+    <ellipse cx="380" cy="545" rx="130" ry="34" fill="url(#puff)"/>
+    <ellipse cx="1350" cy="520" rx="200" ry="42" fill="url(#puff)"/>
+    <ellipse cx="1480" cy="505" rx="120" ry="30" fill="url(#puff)"/>
+    <ellipse cx="900" cy="640" rx="240" ry="38" fill="url(#puff)"/>
+    <ellipse cx="1700" cy="640" rx="160" ry="32" fill="url(#puff)"/>
+    <ellipse cx="140" cy="700" rx="160" ry="30" fill="url(#puff)"/>
+  </g>
+
+  <!-- Sanctum Tower -->
+  <polygon points="1150,860 1155,420 1162,330 1170,250 1178,330 1185,420 1190,860" fill="url(#tower)"/>
+  <ellipse cx="1170" cy="470" rx="70" ry="14" fill="none" stroke="#DDF5FF" stroke-width="5"/>
+  <ellipse cx="1170" cy="560" rx="52" ry="10" fill="none" stroke="#DDF5FF" stroke-width="3"/>
+
+  <!-- Kivotos skyline -->
+  <path fill="url(#cityFar)" d="M0,860 V770 H50 V730 H95 V790 H140 V700 H165 V680 H190 V700 H215 V760 H260 V720 H320 V800 H360 V740 H400 V690 H425 V650 H450 V690 H480 V770 H530 V735 H590 V780 H640 V710 H680 V760 H730 V700 H770 V740 H820 V790 H860 V720 H900 V680 H930 V740 H980 V770 H1040 V720 H1090 V760 H1250 V730 H1300 V690 H1330 V660 H1360 V690 H1390 V750 H1440 V710 H1500 V770 H1550 V730 H1600 V690 H1640 V740 H1700 V780 H1740 V720 H1790 V760 H1840 V700 H1880 V750 H1920 V860 Z"/>
+  <path fill="url(#cityNear)" d="M0,900 V820 H70 V790 H120 V840 H200 V780 H240 V760 H280 V800 H350 V830 H420 V790 H470 V810 H560 V770 H600 V800 H690 V830 H760 V790 H820 V815 H900 V780 H950 V820 H1020 V800 H1100 V830 H1180 V790 H1230 V810 H1310 V775 H1350 V800 H1430 V830 H1500 V790 H1560 V815 H1640 V780 H1690 V820 H1770 V795 H1840 V830 H1920 V900 Z"/>
+  <rect x="0" y="740" width="1920" height="170" fill="url(#haze)"/>
+
+  <!-- Cloud bank -->
+  <ellipse cx="120" cy="930" rx="300" ry="170" fill="url(#puff)"/>
+  <ellipse cx="430" cy="960" rx="320" ry="170" fill="url(#puff)"/>
+  <ellipse cx="760" cy="940" rx="300" ry="160" fill="url(#puff)"/>
+  <ellipse cx="1080" cy="975" rx="340" ry="170" fill="url(#puff)"/>
+  <ellipse cx="1420" cy="945" rx="320" ry="175" fill="url(#puff)"/>
+  <ellipse cx="1740" cy="965" rx="300" ry="165" fill="url(#puff)"/>
+  <ellipse cx="1960" cy="935" rx="240" ry="160" fill="url(#puff)"/>
+  <g fill="#FFFFFF">
+    <ellipse cx="60" cy="1030" rx="260" ry="110"/>
+    <ellipse cx="380" cy="1050" rx="300" ry="110"/>
+    <ellipse cx="720" cy="1040" rx="300" ry="110"/>
+    <ellipse cx="1060" cy="1060" rx="320" ry="110"/>
+    <ellipse cx="1400" cy="1040" rx="300" ry="110"/>
+    <ellipse cx="1730" cy="1055" rx="300" ry="110"/>
+    <ellipse cx="1950" cy="1030" rx="220" ry="110"/>
+    <rect x="0" y="1040" width="1920" height="40"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#FFFFFF">
+    <path transform="translate(1180 160) scale(1.4)" d="M0,-14 L3,-3 L14,0 L3,3 L0,14 L-3,3 L-14,0 L-3,-3 Z"/>
+    <path transform="translate(980 110) scale(0.8)" d="M0,-14 L3,-3 L14,0 L3,3 L0,14 L-3,3 L-14,0 L-3,-3 Z"/>
+    <path transform="translate(1320 330) scale(0.6)" d="M0,-14 L3,-3 L14,0 L3,3 L0,14 L-3,3 L-14,0 L-3,-3 Z"/>
+    <path transform="translate(220 420) scale(0.9)" d="M0,-14 L3,-3 L14,0 L3,3 L0,14 L-3,3 L-14,0 L-3,-3 Z"/>
+    <path transform="translate(820 470) scale(0.5)" d="M0,-14 L3,-3 L14,0 L3,3 L0,14 L-3,3 L-14,0 L-3,-3 Z"/>
+    <path transform="translate(1640 420) scale(1.0)" d="M0,-14 L3,-3 L14,0 L3,3 L0,14 L-3,3 L-14,0 L-3,-3 Z"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="96" y="930" font-family="Noto Sans, sans-serif" font-size="58" font-weight="900" font-style="italic" fill="#3D9BE6" fill-opacity="0.8">KIVOTOS</text>
+  <text x="100" y="962" font-family="Noto Sans, sans-serif" font-size="20" font-weight="700" fill="#5AAEEB" fill-opacity="0.85">ACADEMY CITY  ·  SHITTIM CHEST NETWORK</text>
+</svg>

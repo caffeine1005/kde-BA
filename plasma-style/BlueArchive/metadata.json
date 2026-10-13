@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "KDE_BA contributors"
+            }
+        ],
+        "Category": "",
+        "Description": "Clean white and Kivotos-blue Plasma style inspired by Blue Archive",
+        "EnabledByDefault": true,
+        "Id": "BlueArchive",
+        "License": "GPL-2.0+",
+        "Name": "Blue Archive",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API": "5.0"
+}

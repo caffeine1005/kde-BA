@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "KDE_BA contributors"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "Blue Archive style resource pills: AP (battery), Credits (clock) and Pyroxene (date with calendar)",
+        "Icon": "view-calendar",
+        "Id": "com.kivotos.resources",
+        "License": "GPL-2.0+",
+        "Name": "Kivotos Resources",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

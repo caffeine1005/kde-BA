@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Blue Archive tooltip frame (same shape as dialogs/background.svg). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="topleft">
+    <path fill="#ffffff" d="M1,8 A7,5 0 0 1 8,3 L8,8 Z"/>
+    <path fill="#2ca0f0" fill-rule="evenodd" d="M0,8 A8,8 0 0 1 8,0 L8,8 Z M1,8 A7,5 0 0 1 8,3 L8,8 Z"/>
+  </g>
+  <g id="top">
+    <rect fill="#2ca0f0" x="8" y="0" width="10" height="3"/>
+    <rect fill="#ffffff" x="8" y="3" width="10" height="5"/>
+  </g>
+  <g id="topright">
+    <path fill="#ffffff" d="M18,3 A7,5 0 0 1 25,8 L18,8 Z"/>
+    <path fill="#2ca0f0" fill-rule="evenodd" d="M18,0 A8,8 0 0 1 26,8 L18,8 Z M18,3 A7,5 0 0 1 25,8 L18,8 Z"/>
+  </g>
+  <g id="left">
+    <rect fill="#a8d8fa" x="0" y="8" width="1" height="10"/>
+    <rect fill="#ffffff" x="1" y="8" width="7" height="10"/>
+  </g>
+  <rect id="center" fill="#ffffff" x="8" y="8" width="10" height="10"/>
+  <g id="right">
+    <rect fill="#ffffff" x="18" y="8" width="7" height="10"/>
+    <rect fill="#a8d8fa" x="25" y="8" width="1" height="10"/>
+  </g>
+  <g id="bottomleft">
+    <path fill="#ffffff" d="M1,18 A7,7 0 0 0 8,25 L8,18 Z"/>
+    <path fill="#a8d8fa" fill-rule="evenodd" d="M0,18 A8,8 0 0 0 8,26 L8,18 Z M1,18 A7,7 0 0 0 8,25 L8,18 Z"/>
+  </g>
+  <g id="bottom">
+    <rect fill="#ffffff" x="8" y="18" width="10" height="7"/>
+    <rect fill="#a8d8fa" x="8" y="25" width="10" height="1"/>
+  </g>
+  <g id="bottomright">
+    <path fill="#ffffff" d="M25,18 A7,7 0 0 1 18,25 L18,18 Z"/>
+    <path fill="#a8d8fa" fill-rule="evenodd" d="M26,18 A8,8 0 0 1 18,26 L18,18 Z M25,18 A7,7 0 0 1 18,25 L18,18 Z"/>
+  </g>
+</svg>

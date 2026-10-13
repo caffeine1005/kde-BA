@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "KDE_BA contributors"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "Application launcher themed after the Shittim Chest tablet and its A.R.O.N.A. OS",
+        "Icon": "input-tablet",
+        "Id": "com.kivotos.shittimchest",
+        "License": "GPL-2.0+",
+        "Name": "Shittim Chest",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.launchermenu"
+    ]
+}

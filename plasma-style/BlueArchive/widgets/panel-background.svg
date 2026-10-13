@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- White Blue Archive tray: light outline, thick Kivotos-blue underline. 8px corners, 10px stretchable middle. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="26" viewBox="0 0 40 26">
+  <g id="topleft">
+    <path fill="#ffffff" fill-opacity="0.95" d="M1,8 A7,7 0 0 1 8,1 L8,8 Z"/>
+    <path fill="#a8d8fa" fill-rule="evenodd" d="M0,8 A8,8 0 0 1 8,0 L8,8 Z M1,8 A7,7 0 0 1 8,1 L8,8 Z"/>
+  </g>
+  <g id="top">
+    <rect fill="#a8d8fa" x="8" y="0" width="10" height="1"/>
+    <rect fill="#ffffff" fill-opacity="0.95" x="8" y="1" width="10" height="7"/>
+  </g>
+  <g id="topright">
+    <path fill="#ffffff" fill-opacity="0.95" d="M18,1 A7,7 0 0 1 25,8 L18,8 Z"/>
+    <path fill="#a8d8fa" fill-rule="evenodd" d="M18,0 A8,8 0 0 1 26,8 L18,8 Z M18,1 A7,7 0 0 1 25,8 L18,8 Z"/>
+  </g>
+  <g id="left">
+    <rect fill="#a8d8fa" x="0" y="8" width="1" height="10"/>
+    <rect fill="#ffffff" fill-opacity="0.95" x="1" y="8" width="7" height="10"/>
+  </g>
+  <rect id="center" fill="#ffffff" fill-opacity="0.95" x="8" y="8" width="10" height="10"/>
+  <g id="right">
+    <rect fill="#ffffff" fill-opacity="0.95" x="18" y="8" width="7" height="10"/>
+    <rect fill="#a8d8fa" x="25" y="8" width="1" height="10"/>
+  </g>
+  <g id="bottomleft">
+    <path fill="#ffffff" fill-opacity="0.95" d="M1,18 A7,5 0 0 0 8,23 L8,18 Z"/>
+    <path fill="#2ca0f0" fill-rule="evenodd" d="M0,18 A8,8 0 0 0 8,26 L8,18 Z M1,18 A7,5 0 0 0 8,23 L8,18 Z"/>
+  </g>
+  <g id="bottom">
+    <rect fill="#ffffff" fill-opacity="0.95" x="8" y="18" width="10" height="5"/>
+    <rect fill="#2ca0f0" x="8" y="23" width="10" height="3"/>
+  </g>
+  <g id="bottomright">
+    <path fill="#ffffff" fill-opacity="0.95" d="M25,18 A7,5 0 0 1 18,23 L18,18 Z"/>
+    <path fill="#2ca0f0" fill-rule="evenodd" d="M26,18 A8,8 0 0 1 18,26 L18,18 Z M25,18 A7,5 0 0 1 18,23 L18,18 Z"/>
+  </g>
+
+  <rect id="hint-top-margin" fill="none" x="30" y="0" width="1" height="2"/>
+  <rect id="hint-bottom-margin" fill="none" x="32" y="0" width="1" height="4"/>
+  <rect id="hint-left-margin" fill="none" x="30" y="6" width="4" height="1"/>
+  <rect id="hint-right-margin" fill="none" x="30" y="8" width="4" height="1"/>
+</svg>

@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "KDE_BA contributors"
+            }
+        ],
+        "Id": "KivotosSky",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Kivotos Sky"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "KDE_BA contributors"
+            }
+        ],
+        "Category": "",
+        "Description": "Blue Archive home-screen desktop with the Shittim Chest launcher",
+        "Id": "com.kivotos.bluearchive",
+        "License": "GPL-2.0+",
+        "Name": "Blue Archive",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-APIVersion": "2"
+}
